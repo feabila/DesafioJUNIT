@@ -18,6 +18,19 @@ Felipe Abila Gonçalves
 
 2° - Testando a primeira vez a JUnit com a classe JulgamentoPrisioneiro
 
+    import static org.junit.jupiter.api.Assertions.*;
+
+    import org.junit.jupiter.api.Test;
+
+    class JUnitTeste {
+        @Test
+        void test() {
+            JulgamentoPrisioneiro julgamento= new JulgamentoPrisioneiro();
+            int result= julgamento.calculaPena("Culpado", "Cúmplice");
+        }
+    }
+
+
     JUnitTeste
     JUnitTeste
     test(JUnitTeste)
