@@ -1,0 +1,17 @@
+1° - Criei a JUnit de Teste
+
+    import static org.junit.jupiter.api.Assertions.*;
+
+    import org.junit.jupiter.api.Test;
+
+    class JUnitTeste {
+
+        @Test
+        void test() {
+            fail("Not yet implemented");
+        }
+
+    }
+
+RM 82237
+Felipe Abila Gonçalves
