@@ -15,3 +15,14 @@
 
 RM 82237
 Felipe Abila Gonçalves
+
+2° - Testando a primeira vez a JUnit com a classe JulgamentoPrisioneiro
+
+    JUnitTeste
+    JUnitTeste
+    test(JUnitTeste)
+
+    java.lang.Error: Unresolved compilation problem: 
+	The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta
+
+	at JUnitTeste.test(JUnitTeste.java:10)
