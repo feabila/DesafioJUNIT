@@ -70,3 +70,20 @@ Felipe Abila Gonçalves
             // para espaço vazio
         }
     }
+
+4° - Adicinando o assertEquals para teste da JUnit
+
+    import static org.junit.jupiter.api.Assertions.*;
+
+    import org.junit.jupiter.api.Test;
+
+    class JUnitTeste {
+
+        @Test
+        void test() {
+            JulgamentoPrisioneiro julgamento= new JulgamentoPrisioneiro();
+            int result= julgamento.calculaPena("Cúmplice", "Culpado");
+            assertEquals(result, 10);
+        }
+
+    }
